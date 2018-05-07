@@ -1,0 +1,12 @@
+<ul>
+        <li ng-repeat="parkering in parkerings">
+            <div>
+                <div>
+                    <span>{{parkering.record_timestamp}}</span>
+                    <span>{{parkering.recordid}}</span>
+                    <p>{{parkering.fields.avgift}} </p>
+                    <p>{{parkering.fields.bel_tid}} </p>
+                </div>
+            </div>
+        </li>
+    </ul>
